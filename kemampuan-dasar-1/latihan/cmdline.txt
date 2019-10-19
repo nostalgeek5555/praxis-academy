@@ -1,0 +1,169 @@
+Tugas 1 
+
+1. date 
+   C:\WINDOWS\system32>date
+   The current date is: Mon 12/06/2077
+   Enter the new date: (mm-dd-yy) 10-19-2019
+
+2. cmd 
+   C:\WINDOWS\system32>cmd
+   Microsoft Windows [Version 10.0.18362.418]
+   (c) 2019 Microsoft Corporation. All rights reserved.
+
+3. attrib
+   C:\WINDOWS\system32>attrib cuzzapi.dll
+   A                    C:\WINDOWS\system32\cuzzapi.dll
+
+4. dispdiag
+   C:\WINDOWS\system32>dispdiag
+   Dump file: C:\WINDOWS\system32\DispDiag-20191019-093330-12800-4164.dat
+
+5. doskey /history
+   C:\WINDOWS\system32>doskey /history
+   attrib cuzzapi.dll
+   attrib cuzzapi
+   diskshadow
+   diskshadow -s script.txt
+   dispdiag
+   dnscmd
+   doskey
+   doskey /macros
+   doskey /macros:all
+   doskey /history
+
+6. driverquery
+   Module Name  Display Name           Driver Type   Link Date
+   ============ ====================== ============= ======================
+   1394ohci     1394 OHCI Compliant Ho Kernel
+   3ware        3ware                  Kernel        5/19/2015 5:28:03 AM
+   ACPI         Microsoft ACPI Driver  Kernel
+   AcpiDev      ACPI Devices driver    Kernel
+   acpiex       Microsoft ACPIEx Drive Kernel
+   acpipagr     ACPI Processor Aggrega Kernel
+   AcpiPmi      ACPI Power Meter Drive Kernel
+   acpitime     ACPI Wake Alarm Driver Kernel
+   Acx01000     Acx01000               Kernel
+   ADP80XX      ADP80XX                Kernel        4/10/2015
+
+7. echo 
+   C:\WINDOWS\system32>echo "hi im nostalgeek now learn to use bash correctly"
+   "hi im nostalgeek now learn to use bash correctly"
+
+8. del 
+   C:\WINDOWS\system32>del E:\otakotaku.png
+
+9. find 
+   E:\Meme>dir c:\ /s /b | find "CPU"
+   c:\Program Files\CPUID
+   c:\Program Files\CPUID\CPU-Z
+   c:\Program Files\CPUID\CPU-Z\cpuz.exe
+   c:\Program Files\CPUID\CPU-Z\cpuz.ini
+   c:\Program Files\CPUID\CPU-Z\cpuz_eula.txt
+   c:\Program Files\CPUID\CPU-Z\cpuz_readme.txt
+   c:\Program Files\CPUID\CPU-Z\unins000.dat
+   c:\Program Files\CPUID\CPU-Z\unins000.exe
+
+10. arp /a
+   C:\Users\naufa>arp /a
+
+  Interface: 192.168.1.5 --- 0xe
+   Internet Address      Physical Address      Type
+   192.168.1.1           24-d3-f2-cf-32-35     dynamic
+   192.168.1.255         ff-ff-ff-ff-ff-ff     static
+   224.0.0.22            01-00-5e-00-00-16     static
+   224.0.0.251           01-00-5e-00-00-fb     static
+   224.0.0.252           01-00-5e-00-00-fc     static
+   239.255.255.250       01-00-5e-7f-ff-fa     static
+   255.255.255.255       ff-ff-ff-ff-ff-ff     static
+
+11. auditpol
+   C:\WINDOWS\system32>auditpol /get /user:{S-1-5-21-1443922412-3030960370-963420232-51} /category:"System","detailed Tracking","Object Access"
+   Error 0x00000534 occurred:
+   No mapping between account names and security IDs was done.
+
+12. bitsadmin /list
+    BITSADMIN version 3.0
+    BITS administration utility.
+    (C) Copyright Microsoft Corp.
+
+    Listed 0 job(s).
+
+13. findstr 
+    E:\Training\Praxis Academy Bootcamp 2019>findstr "system32" cmdline.txt
+     C:\WINDOWS\system32>date
+     C:\WINDOWS\system32>cmd
+     C:\WINDOWS\system32>attrib cuzzapi.dll
+     A                    C:\WINDOWS\system32\cuzzapi.dll
+     C:\WINDOWS\system32>dispdiag
+     Dump file: C:\WINDOWS\system32\DispDiag-20191019-093330-12800-4164.dat
+     C:\WINDOWS\system32>doskey /history
+     C:\WINDOWS\system32>echo "hi im nostalgeek now learn to use bash correctly"
+     C:\WINDOWS\system32>del E:\otakotaku.png
+     C:\WINDOWS\system32>auditpol /get /user:{S-1-5-21-1443922412-3030960370-963420232-51} /category:"System","detailed Tracking","Object Access"
+
+14. forfiles 
+    E:\Training\Praxis Academy Bootcamp 2019>forfiles /s /m *.* /d -12/12/2018 /c "cmd /c echo @file is outdated."
+    ERROR: No files found with the specified search criteria.
+
+15. ftp 
+    E:\Training\Praxis Academy Bootcamp 2019>ftp ftp.example.microsoft.com
+    > ftp: connect :Connection timed out
+
+16. hostname 
+   C:\WINDOWS\system32>hostname
+   DESKTOP-OKQN8AI
+
+17. if 
+   C:\WINDOWS\system32>if not exist product.dat echo Cannot find data file
+   Cannot find data file
+
+18. ipconfig 
+   C:\WINDOWS\system32>ipconfig
+
+   Windows IP Configuration
+
+
+   Ethernet adapter Ethernet:
+
+    Media State . . . . . . . . . . . : Media disconnected
+    Connection-specific DNS Suffix  . :
+
+   Wireless LAN adapter Local Area Connection* 1:
+
+    Media State . . . . . . . . . . . : Media disconnected
+    Connection-specific DNS Suffix  . :
+
+   Wireless LAN adapter Local Area Connection* 10:
+
+    Media State . . . . . . . . . . . : Media disconnected
+    Connection-specific DNS Suffix  . :
+
+   Wireless LAN adapter Wi-Fi:
+
+    Connection-specific DNS Suffix  . :
+    Link-local IPv6 Address . . . . . : fe80::5c8e:10ad:4c5e:86f%14
+    IPv4 Address. . . . . . . . . . . : 192.168.1.5
+    Subnet Mask . . . . . . . . . . . : 255.255.255.0
+    Default Gateway . . . . . . . . . : fe80::1%14
+                                        192.168.1.1
+
+19. ping 
+    C:\WINDOWS\system32>ping google.com
+
+    Pinging google.com [216.239.38.120] with 32 bytes of data:
+    Reply from 216.239.38.120: bytes=32 time=31ms TTL=50
+    Reply from 216.239.38.120: bytes=32 time=31ms TTL=50
+    Reply from 216.239.38.120: bytes=32 time=33ms TTL=50
+    Reply from 216.239.38.120: bytes=32 time=31ms TTL=50
+
+    Ping statistics for 216.239.38.120:
+      Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+    Approximate round trip times in milli-seconds:
+      Minimum = 31ms, Maximum = 33ms, Average = 31ms
+
+20. mkdir
+    E:\>mkdir praxisAcademy
+
+    E:\>cd /praxisAcademy
+
+    E:\praxisAcademy>
