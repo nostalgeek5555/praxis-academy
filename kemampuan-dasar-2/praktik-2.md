@@ -22,7 +22,7 @@
 
 ![analytics_1()](https://github.com/nostalgeek5555/praxis-academy/blob/master/kemampuan-dasar-2/Image/2.%20github-collaborator-tutorial/graph1.png)
 
-![analytics_2()]((https://github.com/nostalgeek5555/praxis-academy/blob/master/kemampuan-dasar-2/Image/2.%20github-collaborator-tutorial/graph2.png)
+![analytics_2()](https://github.com/nostalgeek5555/praxis-academy/blob/master/kemampuan-dasar-2/Image/2.%20github-collaborator-tutorial/graph2.png)
 
 ![analytics_3()](https://github.com/nostalgeek5555/praxis-academy/blob/master/kemampuan-dasar-2/Image/2.%20github-collaborator-tutorial/graph3.png)
 
