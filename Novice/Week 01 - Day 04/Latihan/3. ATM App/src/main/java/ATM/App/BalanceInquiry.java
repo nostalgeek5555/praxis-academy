@@ -7,8 +7,9 @@ public class BalanceInquiry extends ATMMachine
     {
         balance = b;
     }
+
     public static double getBalance()
     {
         return balance;
-    }   
+    }
 }

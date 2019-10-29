@@ -1,6 +1,6 @@
 package ATM.App;
 
-public class Withdraw extends ATMMachine 
+public class Withdraw extends ATMMachine
 {
     static double withdraw = 0;
     public void setWithdraw(double w)

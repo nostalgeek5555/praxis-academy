@@ -7,6 +7,7 @@ public class Deposit extends ATMMachine
     {
         deposit = d;
     }
+
     public static double getDeposit()
     {
         return deposit;
