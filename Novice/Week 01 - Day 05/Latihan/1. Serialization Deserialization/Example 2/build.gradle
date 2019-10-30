@@ -14,18 +14,14 @@ plugins {
     id 'application'
 }
 
-task buildJar (type : Jar) {
-    manifest {
-        attributes 'Implementation-Title': 'VendingMachine.jar',
-        'Implementation-Version': 1.0,
-        'Main-Class': 'Vending.Machine.VendingMachineImpl'
-    }
-    baseName = 'VendingMachine'
-    from { configurations.compile.collect {it.isDirectory() ? it : zipTree(it)}}
-    with jar
+jar {
+  manifest {
+    attributes(
+      'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
+      'Main-Class': 'Example.SerialExample'
+    )
+  }
 }
-
- 
 
 repositories {
     // Use jcenter for resolving your dependencies.
@@ -42,4 +38,4 @@ dependencies {
 }
 
 // Define the main class for the application
-mainClassName = 'Vending.Machi.VendingMachineImpl'
+mainClassName = 'Example.SerialExample'
