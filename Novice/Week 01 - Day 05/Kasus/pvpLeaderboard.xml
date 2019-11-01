@@ -1,0 +1,53 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+    <pvpleaderboard>
+        <rank rankID = "1">
+            <playerID> 1990878 </playerID>
+            <playerUsername> olsen5 </playerUsername>
+            <playerMainJob> Realm Divider </playerMainJob>
+            <playerTotalMatch> 284 </playerTotalMatch>
+            <playerWin> 231 </playerWin>
+            <playerLose> 36 </playerLose>
+            <playerDraw> 7 </playerDraw>
+        </rank>
+
+        <rank rankID = "2">
+            <playerID> 2133400 </playerID>
+            <playerUsername> madDog </playerUsername>
+            <playerMainJob> Berserker </playerMainJob>
+            <playerTotalMatch> 277 </playerTotalMatch>
+            <playerWin> 226 </playerWin>
+            <playerLose> 40 </playerLose>
+            <playerDraw> 11 </playerDraw>
+        </rank>
+
+        <rank rankID = "3">
+            <playerID> 1810921 </playerID>
+            <playerUsername> dravendi </playerUsername>
+            <playerMainJob> Holy Knight </playerMainJob>
+            <playerTotalMatch> 256 </playerTotalMatch>
+            <playerWin> 224 </playerWin>
+            <playerLose> 30 </playerLose>
+            <playerDraw> 2 </playerDraw>
+        </rank>
+
+        <rank rankID = "4">
+            <playerID> 2840885 </playerID>
+            <playerUsername> hush </playerUsername>
+            <playerMainJob> Doom Knight </playerMainJob>
+            <playerTotalMatch> 248 </playerTotalMatch>
+            <playerWin> 224 </playerWin>
+            <playerLose> 20 </playerLose>
+            <playerDraw> 4 </playerDraw>
+        </rank>
+
+        <rank rankID = "5">
+            <playerID> 1810921 </playerID>
+            <playerUsername> juLiang </playerUsername>
+            <playerMainJob> Druid </playerMainJob>
+            <playerTotalMatch> 235 </playerTotalMatch>
+            <playerWin> 210 </playerWin>
+            <playerLose> 20 </playerLose>
+            <playerDraw> 5 </playerDraw>
+        </rank>
+
+    </pvpleaderboard>

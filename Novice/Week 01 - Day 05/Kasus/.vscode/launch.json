@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - pvpLeaderboardDemo",
+            "request": "launch",
+            "mainClass": "kasus.pvpLeaderboardDemo",
+            "projectName": "case"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - pvpLeaderboardDemo",
+            "request": "launch",
+            "mainClass": "pvpLeaderboardDemo",
+            "projectName": "case"
+        }
+    ]
+}

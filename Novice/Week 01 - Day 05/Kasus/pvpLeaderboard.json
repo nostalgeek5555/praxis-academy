@@ -1,0 +1,63 @@
+{ "pvpleaderboard" : 
+    [
+        {"rank - 1" :
+            {
+            "playerID" : "1990878",
+            "playerUsername" : "olsen5",
+            "playerMainJob" : "Realm Divider",
+            "playerTotalMatch" : "284",
+            "playerWin" : "231",
+            "playerLose" : "36",
+            "playerDraw" : "7"           
+            }
+        }, 
+
+        {"rank - 2" : 
+            {
+            "playerID" : "2133400",
+            "playerUsername" : "madDog",
+            "playerMainJob" : "Berserker",
+            "playerTotalMatch" : "277",
+            "playerWin" : "226",
+            "playerLose" : "40",
+            "playerDraw" : "11" 
+            }
+        },
+
+        {"rank - 3" : 
+            {
+            "playerID" : "1810921",
+            "playerUsername" : "dravendi",
+            "playerMainJob" : "Holy Knight",
+            "playerTotalMatch" : "256",
+            "playerWin" : "224",
+            "playerLose" : "30",
+            "playerDraw" : "2" 
+            }
+        },
+
+        {"rank - 4" : 
+            {
+            "playerID" : "2840885",
+            "playerUsername" : "hush",
+            "playerMainJob" : "Doom Knight",
+            "playerTotalMatch" : "248",
+            "playerWin" : "224",
+            "playerLose" : "20",
+            "playerDraw" : "4" 
+            }
+        },
+
+        {"rank - 5" : 
+            {
+            "playerID" : "1810921",
+            "playerUsername" : "juLiang",
+            "playerMainJob" : "Druid",
+            "playerTotalMatch" : "235",
+            "playerWin" : "210",
+            "playerLose" : "20",
+            "playerDraw" : "5"
+            }
+        }
+    ]
+}
