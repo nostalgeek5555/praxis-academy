@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OptionFilter",
+            "request": "launch",
+            "mainClass": "optionFilter.OptionFilter",
+            "projectName": "optionFilter"
+        }
+    ]
+}
