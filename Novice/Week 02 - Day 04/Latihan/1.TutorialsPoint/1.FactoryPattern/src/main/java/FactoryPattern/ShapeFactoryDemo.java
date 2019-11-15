@@ -5,7 +5,6 @@ package FactoryPattern;
 
 import FactoryPattern.ShapeFactory;
 import java.lang.*;
-
 public class ShapeFactoryDemo {
 
     public static void main(String[] args) {
